@@ -24,7 +24,9 @@ const builtinExtensions = {
     makeymakey: () => require('../extensions/scratch3_makeymakey'),
     boost: () => require('../extensions/scratch3_boost'),
     gdxfor: () => require('../extensions/scratch3_gdx_for'),
-    square: () => require('../extensions/scratch3_square')
+    square: () => require('../extensions/scratch3_square'),
+    pictobloxmath: () => require('../extensions/scratch3_PictoBloxMath'),
+    pictobloxstring: () => require('../extensions/scratch3_PictoBloxString')
 };
 
 /**
